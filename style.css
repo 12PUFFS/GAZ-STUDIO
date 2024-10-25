@@ -1,0 +1,187 @@
+@font-face {
+    font-family:'Noto Sans Devanagari' ;
+    src: url(/fonts/NotoSansDevanagari-Regular.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans Devanagari',sans-serif ;
+}
+
+.container{
+    max-width: 1838px;
+    margin: 0 auto;
+}
+
+.header-container{
+    max-width: 1838px;
+    margin: 0 auto;
+  
+    
+}
+
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.header-list{
+    display: flex;
+    justify-content: end;
+    
+    
+
+    
+}
+
+img{
+    display: block;
+}
+
+.header{
+    
+    background: linear-gradient(178.92deg, #000000 19.40%, #FE7513 130.49%);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 1089px ;
+    width: 100%;
+    
+    
+    
+}
+
+.header-hero{
+    margin-top: 223px;
+}
+
+.header-list-item-link {
+    color:white;
+    
+    
+}
+
+.header-list-item:hover{
+    background: #a73c0e;
+}
+
+.header-list-item{
+   
+    margin: 58px 0;
+    background: #FF5C14;
+  height: 64px;
+    font-family: Noto Sans Devanagari;
+font-size: 24px;
+font-weight: 400;
+line-height: 31.3px;
+letter-spacing: -0.07em;
+text-align: center;
+width: 147px;
+
+align-items: center;
+display: flex;
+justify-content: center;
+
+
+}
+
+.header-list-item:not(:last-child){
+    margin-right: 80px;
+}
+
+.logo{
+    width: 962px;height: 442px;
+}
+
+.header-hero{
+    display: flex;justify-content: center;
+}
+
+.header-hero-text{
+    margin-top: 90px;
+    font-family: Noto Sans Devanagari;
+font-size: 36px;
+font-weight: 400;
+line-height: 46.94px;
+letter-spacing: -0.07em;
+text-align: center;
+color: white;
+
+}
+
+.section-heading{
+    padding-top: 163px;
+    color: white;
+    display: flex;justify-content: center;
+    font-family: Noto Sans Devanagari;
+font-size: 64px;
+font-weight: 400;
+line-height: 83.46px;
+letter-spacing: -0.07em;
+text-align: center;
+margin-bottom: 239px;
+
+}
+
+.section-price{
+    background: linear-gradient(178.92deg, #000000 19.40%, #FE7513 130.49%);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 1089px ;
+    color: white;
+  
+}
+
+
+.price-item{
+    align-items: center;
+    
+  width:400px;
+    
+  
+}
+
+.price-price{
+display: flex;
+justify-content: center;
+
+margin-top: 10px;
+}
+.price-desc{
+    font-family: Noto Sans Devanagari;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 41.73px;
+    letter-spacing: -0.07em;
+  display: flex;
+  padding-bottom: 10px;
+justify-content: center;
+
+
+}
+
+.price-img{
+    width: 371px;
+    height: 338px;
+    
+}
+
+.price-list{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.price-item-link:not(:last-child){
+    margin-right: 10px;
+}
+
+
+
