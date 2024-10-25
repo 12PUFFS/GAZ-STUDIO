@@ -11,7 +11,9 @@
     box-sizing: border-box;
 }
 
-body{
+body{background: linear-gradient(178.92deg, #000000 19.40%, #FE7513 130.49%);
+    background-size: cover ;
+    background-repeat: no-repeat;
     font-family: 'Noto Sans Devanagari',sans-serif ;
 }
 
@@ -48,11 +50,8 @@ img{
 
 .header{
     
-    background: linear-gradient(178.92deg, #000000 19.40%, #FE7513 130.49%);
-    background-size: cover ;
-    background-repeat: no-repeat;
-    height: 1089px ;
-    width: 100%;
+    
+  
     
     
     
