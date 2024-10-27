@@ -252,7 +252,7 @@ padding-top: 110px;
 video{
     width: 381px;
     height: 575px;
-    background: #ec6328;
+   
     border-radius: 8px;
     object-fit: cover;
    
@@ -270,12 +270,15 @@ video{
 
 .section-img{
    
+
+    
    display: flex;
    flex-wrap: wrap;
-    
-    
-    
+   align-items: center;
+   justify-content: flex-end;
 }
+    
+
 
 .si{
     display: flex;
@@ -298,49 +301,56 @@ video{
 .logo-center img{
     width: 346px;
     height: 151px;
-}
-
     
-
-
-/* .about-column p{
-    width: 645px;
- 
-font-size: 40px;
-font-weight: 400;
-line-height: 46.08px;
-display: flex;
-margin-right: 90px;
-
-
 }
 
-.about-column{
-    display: flex;
+
+
+
+
+
+
+@media (max-width: 380px) {
+
+    .logo{
+        max-width: 453px;
+        max-height: 200px;
+
+    }
+
+    .header-container{
+        padding: 0;
+       max-width: 375px;
+    }
+    .container{
+        max-width: 355px;
+        margin: 0 30px;
+        
+        
+    }
+
+    .price-list{
+        flex-direction: column;
+    }
+
+    .header-list-item:not(:last-child){
+        margin-right: 0;
+    }
+
+    .header-list-item-link {
+        padding: 0 10px;
+    }
+    .header-list-item {
+        margin: 0;
+        font-size: 18px;
+    }
+    .price-desc{
+        text-align: center;
+    }
+
+    .section-heading{
+        margin-top: 137px;
+        padding: 0;
+
+    }
 }
-
-.about-img{
-
-    display: flex;
-    justify-content: center;
-}
-
- .logo-outro{
-    
-    width: 346px;
-    height: 151px;
-} 
-
-.about-works{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.work-img{
-    width: 347px;
-    height: 505px;
-    margin-right: 10px;
-} */
-
-
-
