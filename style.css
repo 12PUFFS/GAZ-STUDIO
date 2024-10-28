@@ -333,8 +333,10 @@ video{
 
 @media (max-width: 430px) {
     body{
+        margin: 0 auto;
         letter-spacing: 0;
         max-width: 414px;
+        
 
     }
     .studio{
@@ -353,6 +355,7 @@ video{
     .container{
         max-width: 400px;
         margin:0 30px ;
+        
         
     }
 
@@ -389,6 +392,10 @@ video{
 
     .price-list{
         flex-direction: column;
+    }
+
+    .price-item:not(:last-child) {
+        margin-right: 0
     }
 
     .price-item{
