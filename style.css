@@ -1,7 +1,10 @@
 @font-face {
-    font-family:'Noto Sans Devanagari' ;
-    src: url(/fonts/NotoSansDevanagari-Regular.ttf);
+    font-family:"Noto Sans" ;
+    src: url(/fonts/NotoSans_ExtraCondensed-Regular.ttf);
 }
+
+
+
 
 
 
@@ -14,7 +17,7 @@
 body{background: linear-gradient(178.92deg, #000000 19.40%, #FE7513 130.49%);
     background-size: cover ;
     background-repeat: no-repeat;
-    font-family: 'Noto Sans Devanagari',sans-serif ;
+    font-family: "Noto Sans",serif ;
 }
 
 .container{
@@ -69,7 +72,7 @@ img{
 }
 
 .header-list-item:hover{
-    background: #a73c0e;
+    background: none;
 }
 
 .header-list-item{
@@ -106,7 +109,7 @@ justify-content: center;
 
 .header-hero-text{
     margin-top: 90px;
-    font-family: Noto Sans Devanagari;
+    font-family: "Noto Sans";
 font-size: 36px;
 font-weight: 400;
 line-height: 46.94px;
@@ -120,7 +123,7 @@ color: white;
     padding-top: 163px;
     color: white;
     display: flex;justify-content: center;
-    font-family: Noto Sans Devanagari;
+    font-family: "Noto Sans";
 font-size: 64px;
 font-weight: 400;
 line-height: 83.46px;
@@ -152,7 +155,7 @@ justify-content: center;
 margin-top: 10px;
 }
 .price-desc{
-    font-family: Noto Sans Devanagari;
+    font-family:"Noto Sans";
     font-size: 25px;
     font-weight: 400;
     line-height: 41.73px;
@@ -176,21 +179,27 @@ justify-content: center;
    align-items: center;
 }
 
-.price-item-link:not(:last-child){
+.price-item:not(:last-child){
     margin-right: 10px;
 }
 
 
 .videos-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 163px;
     flex-wrap: wrap;
 }
 
+
+
+.videos-item:not(:last-child){
+    margin-right: 150px;
+}
+
 video{
-  margin-bottom: 150px;
-    
+  margin-bottom: 100px;
+ 
    
     align-items: center;
     justify-content: center;
@@ -305,35 +314,56 @@ video{
     
 }
 
+.studio{
+    max-width: 416px;
+    max-height: 143px;
+   
+}
+
+.heading-hero-studio{
+    display: flex;
+    justify-content: center;
+}
 
 
 
 
 
 
-@media (max-width: 451px) {
+
+@media (max-width: 430px) {
     body{
         letter-spacing: 0;
+        max-width: 414px;
 
     }
+    .studio{
+        width: 200px;
+        height: 43px;
+       
+    }
+
+    .header
 
     .logo{
-        max-width: 550px;
-        max-height: 200px ;
+        width: 550px;
+        height: 200px ;
     }
 
     .container{
-        max-width: 400px;
-        margin:0 30px ;
+        max-width: 300px;
+       margin: 0 auto;
         
     }
+
+   
 
     .section-heading{
         letter-spacing: 0px;
     }
 
     .header-container{
-        max-width: 414px;
+        max-width: 400px;
         padding: 0 ;
         margin-top: 0;
     }
@@ -348,7 +378,8 @@ video{
         font-size: 18px;
 
         line-height: 20px;
-        letter-spacing: 0;
+        letter-spacing: -0.07em;
+
     }
 
     .price-price{
@@ -362,10 +393,15 @@ video{
 
     .price-item{
         text-align: center;
+        max-width: 320px;
     }
 
     .price-logo{
         border-radius: 8px;
+        max-width: 300px;
+    }
+    .price-price{
+        margin-bottom: 30px;
     }
 
     .header-hero {
@@ -373,22 +409,31 @@ video{
     }
 
     video{
-        max-width: 350px;
+        max-width: 300px;
         margin-bottom: 50px;
+    }
+    .videos-item:not(:last-child){
+        margin-right: 0;
     }
 
     .footer-item{
 
     }
     
-    .socials{}
+    .studio{
+        margin-bottom: 147px;
+    }
         
+
+    .logo-center{
+        margin-bottom: 0;
+    }
 
     .number{
         font-size: 20px;
         margin-right: 40px;
         margin-left: 40px;
-        gap: 30px;
+       font-weight: 700;
         text-align: center;
     }
 
@@ -421,6 +466,7 @@ video{
 
     .about-text{
         margin-right: 10px;
+        text-align: justify;
     }
 
     .si{
@@ -431,7 +477,17 @@ video{
     .section-about{
         color: white;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+    .section-img{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        align-content: center;
     }
     
 
