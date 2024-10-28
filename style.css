@@ -351,8 +351,8 @@ video{
     }
 
     .container{
-        max-width: 300px;
-       margin: 0 auto;
+        max-width: 400px;
+        margin:0 30px ;
         
     }
 
@@ -363,7 +363,7 @@ video{
     }
 
     .header-container{
-        max-width: 400px;
+        max-width: 414px;
         padding: 0 ;
         margin-top: 0;
     }
