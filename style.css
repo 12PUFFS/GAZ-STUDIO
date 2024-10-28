@@ -323,7 +323,7 @@ video{
     }
 
     .container{
-        max-width: 414px;
+        max-width: 420px;
         margin:0 30px ;
         
     }
@@ -333,7 +333,7 @@ video{
     }
 
     .header-container{
-        max-width: 414px;
+        max-width: 420px;
         padding: 0 ;
         margin-top: 0;
     }
