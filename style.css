@@ -1,6 +1,6 @@
 @font-face {
     font-family:"Noto Sans" ;
-    src: url(/fonts/NotoSans_ExtraCondensed-Regular.ttf);
+    src: url(fonts/NotoSans_ExtraCondensed-Regular.ttf);
 }
 
 
@@ -415,7 +415,7 @@ video{
     }
 
     .header-hero {
-    margin-top: 150px;
+    margin-top: 300px;
     }
 
     video{
