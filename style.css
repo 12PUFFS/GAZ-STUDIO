@@ -407,6 +407,32 @@ video{
         margin-right: 0;
         margin-top: 40px;
     }
+
+
+
+    .section-about-us .section-heading{
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .about-text p{
+        font-size: 18px;
+    }
+
+    .about-text{
+        margin-right: 10px;
+    }
+
+    .si{
+        width: 100px;
+        display: flex;
+    }
+
+    .section-about{
+        color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    }
     
 
     
