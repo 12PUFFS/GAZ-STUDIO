@@ -33,6 +33,13 @@ body{background: linear-gradient(178.92deg, #000000 19.40%, #FE7513 130.49%);
     
 }
 
+
+   img {
+       max-width: 100%;
+       height: auto;
+   }
+
+
 ul,li,a{
     list-style: none;
     text-decoration: none;
